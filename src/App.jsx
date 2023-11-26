@@ -23,10 +23,10 @@ function App() {
   return (
     <div>
       {/* <Toggler></Toggler> */}
-      {/* <Counter></Counter> */}
+      <Counter></Counter>
       {/* <TogglerCounter></TogglerCounter>
        */}
-      <ColorList data={list}></ColorList>
+      {/* <ColorList data={list}></ColorList> */}
     </div>
   );
 }
