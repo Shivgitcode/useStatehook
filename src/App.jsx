@@ -8,6 +8,8 @@ import TogglerCounter from "./ToggleCounter";
 import ColorList from "./ColorList";
 import Dumbo from "./Dumbo";
 import ScoreKeeper from "./ScoreKeeper";
+import EmojiClicker from "./EmojiClicker";
+import ScoreKeeper2 from "./ScoreKeeper2";
 
 function App() {
   const list = [
@@ -31,7 +33,9 @@ function App() {
       {/* <TogglerCounter></TogglerCounter>
        */}
       {/* <ColorList data={list}></ColorList> */}
-      <ScoreKeeper></ScoreKeeper>
+      {/* <ScoreKeeper></ScoreKeeper> */}
+      {/* <EmojiClicker></EmojiClicker> */}
+      <ScoreKeeper2 players={4}></ScoreKeeper2>
     </div>
   );
 }
