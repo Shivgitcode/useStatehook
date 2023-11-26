@@ -6,6 +6,8 @@ import Counter from "./Counter";
 import Toggler from "./Toggler";
 import TogglerCounter from "./ToggleCounter";
 import ColorList from "./ColorList";
+import Dumbo from "./Dumbo";
+import ScoreKeeper from "./ScoreKeeper";
 
 function App() {
   const list = [
@@ -23,10 +25,13 @@ function App() {
   return (
     <div>
       {/* <Toggler></Toggler> */}
-      <Counter></Counter>
+      {/* <Counter></Counter>
+       */}
+      {/* <Dumbo></Dumbo> */}
       {/* <TogglerCounter></TogglerCounter>
        */}
       {/* <ColorList data={list}></ColorList> */}
+      <ScoreKeeper></ScoreKeeper>
     </div>
   );
 }
